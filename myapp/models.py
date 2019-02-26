@@ -15,4 +15,4 @@ class Attendees (models.Model):
     events=models.IntegerField()
 
     def __str__(self):
-        return f("{} {}").format(self.first_name,self.last_name)
+        return ("{} {}").format(self.first_name,self.last_name)
